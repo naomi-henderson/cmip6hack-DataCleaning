@@ -34,12 +34,11 @@ Part 1.
 Turning the ES-DOC Errata Search into a database in python to quickly identify and isolate troublesome data.  This involves parsing the online search tool to obtain a spreadsheet of issues, current status and list of affected files. The spreadsheet uses the same keywords as the catalogs, which allows for easy identification.
 ![es-doc 2 pandas](assets/esdoc-pandas.png)
 
-Part 2. 
-Making Naomi's list of time concatenation exceptions into the same python database.
+Part 2.
+Constructing a new database for collecting common issues and solutions going forward from here. Includes @naomi-henderson
+dataset of exceptions when concatenating the netcdf files in time to create the zarr stores for the Cloud
 
 Part 3.
-Incorporating preprocessing into `intake-esm` to process the various model-dependent coordinates in such a way that we can easily use model independent analysis methods.
+Incorporating preprocessing into `intake-esm` to process the various model-dependent coordinates in such a way that we can easily use model independent analysis methods. (@jbusecke)
 
-Part 4.
-Constructing a new database for collecting common issues and solutions going forward from here.
 
