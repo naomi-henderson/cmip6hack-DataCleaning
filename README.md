@@ -32,6 +32,7 @@ Existing and proposed solutions:
 
 Part 1. 
 Turning the ES-DOC Errata Search into a database in python to quickly identify and isolate troublesome data.  This involves parsing the online search tool to obtain a spreadsheet of issues, current status and list of affected files. The spreadsheet uses the same keywords as the catalogs, which allows for easy identification.
+![es-doc 2 pandas](assets/esdoc-pandas.png)
 
 Part 2. 
 Making Naomi's list of time concatenation exceptions into the same python database.
