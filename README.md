@@ -36,8 +36,8 @@ Turning the ES-DOC Errata Search into a database in python to quickly identify a
 
 Part 2.
 Constructing a new database for collecting common issues and solutions going forward from here. Includes @naomi-henderson
-dataset of exceptions when concatenating the netcdf files in time to create the zarr stores for the Cloud
-![ExceptionsForm](assets/Form.png)
+dataset of exceptions when concatenating the netcdf files in time to create the zarr stores for Googel Cloud Storage.
+![ExceptionsForm](assets/Form.png| width=100)
 
 Part 3.
 Incorporating preprocessing into `intake-esm` to process the various model-dependent coordinates in such a way that we can easily use model independent analysis methods. (@jbusecke)
