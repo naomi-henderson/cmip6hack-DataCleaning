@@ -13,6 +13,8 @@ Although the amount of data is overwhelming, it is all very precious.  It has be
 
 - We have concatenated netcdf in time (using `xarray`, saving as `zarr` stores) - about 30,000 zarr stores in Google Cloud. The time concatenation is problematic, but greatly reduces the work needed to prepare data.
 
+![es-doc](assets/es-doc.png)
+
 ## Data Cleaning has many aspects:
 
 Types of issues:
