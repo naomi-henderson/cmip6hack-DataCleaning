@@ -13,7 +13,6 @@ Although the amount of data is overwhelming, it is all very precious.  It has be
 
 - We have concatenated netcdf in time (using `xarray`, saving as `zarr` stores) - about 30,000 zarr stores in Google Cloud. The time concatenation is problematic, but greatly reduces the work needed to prepare data.
 
-![es-doc](assets/es-doc.png)
 
 ## Data Cleaning has many aspects:
 
@@ -24,6 +23,7 @@ Types of issues:
 
 Existing and proposed solutions:
 - The official CMIP6 errata database: [The ES-DOC Errata Search](https://errata.es-doc.org/static/index.html) for withdrawn, incorrect data with unknown fixes
+![es-doc](assets/es-doc.png)
 - Database of datasets which need special treatment when concatenating the netcdf files in time (@naomi-henderson)
 - Methods for preprocessing the dataset grids (@jbusecke)
 - A crowd-sourced database of how to fix various datasets (correct units, deal with slightly offset grids, etc)
