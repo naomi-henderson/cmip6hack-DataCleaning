@@ -1,5 +1,5 @@
 # CMIP6 Hackathon Data Cleaning/Preprocessing Project  
-Oct 18, 2019
+**LDEO**, October 16-18, 2019
 
 ## The CMIP6 Data Challenge
 Our Google Cloud CMIP6 zarr repository currently contains contributions from 23 institutions with 48 models. Gerald Meehl/UCAR explained in the opening session of the Hackathon, as has happened with prior CMIPs, that the modelers initially promised to run many experiments. But time goes by quickly, deadlines are missed and there is now a rush to get the data out, leading to inevitable inconsistencies.
