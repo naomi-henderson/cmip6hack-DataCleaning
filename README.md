@@ -39,6 +39,6 @@ Constructing a new database for collecting common issues and solutions going for
 dataset of exceptions when concatenating the netcdf files in time to create the zarr stores for Googel Cloud Storage. See [Exceptions.ipynb](https://github.com/naomi-henderson/cmip6hack-DataCleaning/blob/master/notebooks/Exceptions.ipynb)
 
 Part 3.
-Incorporating preprocessing into `intake-esm` to process the various model-dependent coordinates in such a way that we can easily use model independent analysis methods. (@jbusecke)
+Incorporating preprocessing into `intake-esm` to process the various model-dependent coordinates in such a way that we can easily use model independent analysis methods. See [Julius Busecke's Hackathon Project](https://github.com/jbusecke/cmip6_preprocessing)
 
 
