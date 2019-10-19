@@ -33,15 +33,15 @@ Existing and proposed solutions:
 
 ## This Project
 
-- Part 1. 
+- **Part 1.** 
 Turning the ES-DOC Errata Search into a database in python to quickly identify and isolate troublesome data.  This involves parsing the online search tool to obtain a spreadsheet of issues, current status and list of affected files. The spreadsheet uses the same keywords as the catalogs, which allows for easy identification. See [ES-DOC-retrieve.ipynb](https://github.com/naomi-henderson/cmip6hack-DataCleaning/blob/master/notebooks/ES-DOC-retrieve.ipynb)
 ![es-doc 2 pandas](assets/esdoc-pandas.png)
 
-- Part 2.
+- **Part 2.**
 Constructing a new database for collecting common issues and solutions going forward from here. Includes the initial 
 dataset of exceptions compiled when concatenating the netcdf files in time to create the initial collection of zarr stores for this Hackathon in Google Cloud Storage.  A new Google Form is now under construction which will allow us all to contribute issues, and then see the corresponding Google Sheet of responses. See a preliminary notebook for viewing and using the issues: [Exceptions.ipynb](https://github.com/naomi-henderson/cmip6hack-DataCleaning/blob/master/notebooks/Exceptions.ipynb)
 
-- Part 3.
+- **Part 3.**
 Incorporating preprocessing into `intake-esm` to process the various model-dependent coordinates in such a way that we can easily use model independent analysis methods. See [Julius Busecke's Hackathon Project](https://github.com/jbusecke/cmip6_preprocessing)
 
 
