@@ -17,9 +17,9 @@ Although the amount of data is overwhelming, it is all very precious.  It has be
 ## Data Cleaning has many aspects:
 
 Types of issues:
-- _Hopeless cases_ : those needing to be fixed or withdrawn by their creators
-- _Fixable cases_ : duplicate times, mismatched coordinate names, time gaps in data, etc
-- _Enhance-able cases_ : there are improvements we would like to make before aggregating the data in order to expedite our Pangeo methods
+- **Hopeless cases** : those needing to be fixed or withdrawn by their creators
+- **Fixable cases** : duplicate times, mismatched coordinate names, time gaps in data, etc
+- **Enhance-able cases** : there are improvements we would like to make before aggregating the data in order to expedite our Pangeo methods
 
 Existing and proposed solutions:
 - The official CMIP6 errata database: [The ES-DOC Errata Search](https://errata.es-doc.org/static/index.html) for withdrawn, incorrect data with unknown fixes. Contributors: Data Providers (modeling centers)
