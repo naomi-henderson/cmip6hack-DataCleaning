@@ -7,19 +7,19 @@ Our Google Cloud CMIP6 zarr repository currently contains contributions from 23 
 Although the amount of data is overwhelming, it is all very precious.  It has been a labor of love for all involved and we would like to make it as accessible to the world-wide community as possible. For CMIP3 and expecially CMIP5 collections, we each faced the Data Cleaning chore on our own - every researcher had to repeat the same process of discovering and fixing a myriad of little issues in order to calculate multimodel statistics, sometimes with erroneous results. One of the goals of this CMIP hackathon is to develop methods to streamline this often extremely tedious but essential process. The integrity of our science depends on it.
 
 ## Current Status of our Google Cloud and NCAR/Glade CMIP6 collections
-- Some data is collected at a few large sites - the ESGF nodes.  Most remains at home institution - must be downloaded from there. Transfers are between 100Mbps to 100Kbps. All servers go up and down. Recently, even the LLNL ESGF search API goes down almost every weekend.
+- A large chunk of CMIP6 data is collected at a few large sites - the ESGF nodes.  But another chunk of data remains at the home institution and must be downloaded from there. Transfers can be fast, 100Mbps, but can also be as slow as 100Kbps. All of the servers go up and down. Recently, even the LLNL ESGF search API has been inaccessible almost every weekend.
 
 - We have collected a very small subset - about 600,000 netcdf files at NCAR/Glade, most < 2.1 G, split in `time` dimension.
 
-- We have concatenated netcdf in time (using `xarray`, saving as `zarr` stores) - about 30,000 zarr stores in Google Cloud. The time concatenation is problematic, but greatly reduces the work needed to prepare data.
+- We have concatenated the netcdf files in time (using `xarray`, saving as `zarr` stores). We currently have about 30,000 zarr stores in Google Cloud. The time concatenation is problematic, but greatly reduces the work needed to prepare data.
 
 
 ## Data Cleaning has many aspects:
 
 Types of issues:
-- Hopeless cases, or those needing to be fixed by their creators
-- Fixable cases (duplicate times, mismatched coordinate names, time gaps in data, etc)
-- Improvements we would like to make before aggregating the data in order to expedite our Pangeo methods
+- _Hopeless cases_ : those needing to be fixed or withdrawn by their creators
+- _Fixable cases_ : duplicate times, mismatched coordinate names, time gaps in data, etc
+- _Enhance-able cases_ : there are improvements we would like to make before aggregating the data in order to expedite our Pangeo methods
 
 Existing and proposed solutions:
 - The official CMIP6 errata database: [The ES-DOC Errata Search](https://errata.es-doc.org/static/index.html) for withdrawn, incorrect data with unknown fixes. Contributors: Data Providers (modeling centers)
