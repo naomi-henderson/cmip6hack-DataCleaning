@@ -24,21 +24,24 @@ Types of issues:
 Existing and proposed solutions:
 - The official CMIP6 errata database: [The ES-DOC Errata Search](https://errata.es-doc.org/static/index.html) is used to document withdrawn, replaced or incorrect data. These are formal issues (all affected files are listed) which need to be fixed by the Modeling Centers themselves. **Contributors: Data Providers**
 <p align="center"><img src="./assets/es-doc.png" width="600"></p>
+
 - Database of datasets which need special treatment when concatenating the netcdf files in time (@naomi-henderson). **Contributors: Data Brokers** (those downloading from ESGF and collecting in external data servers)
-- Methods for preprocessing the dataset grids (@jbusecke) Contributors: Data Facilitators (like `intake-esg`)
+
+- Methods for preprocessing the dataset grids (@jbusecke) **Contributors: Data Facilitators** (like `intake-esg`)
+
 - A crowd-sourced database of how to fix various datasets (correct units, deal with slightly offset grids, etc). **Contributors: Data Consumers** (all of us)
 
 ## This Project
 
-Part 1. 
+- Part 1. 
 Turning the ES-DOC Errata Search into a database in python to quickly identify and isolate troublesome data.  This involves parsing the online search tool to obtain a spreadsheet of issues, current status and list of affected files. The spreadsheet uses the same keywords as the catalogs, which allows for easy identification. See [ES-DOC-retrieve.ipynb](https://github.com/naomi-henderson/cmip6hack-DataCleaning/blob/master/notebooks/ES-DOC-retrieve.ipynb)
 ![es-doc 2 pandas](assets/esdoc-pandas.png)
 
-Part 2.
+- Part 2.
 Constructing a new database for collecting common issues and solutions going forward from here. Includes @naomi-henderson
 dataset of exceptions when concatenating the netcdf files in time to create the zarr stores for Googel Cloud Storage. See [Exceptions.ipynb](https://github.com/naomi-henderson/cmip6hack-DataCleaning/blob/master/notebooks/Exceptions.ipynb)
 
-Part 3.
+- Part 3.
 Incorporating preprocessing into `intake-esm` to process the various model-dependent coordinates in such a way that we can easily use model independent analysis methods. See [Julius Busecke's Hackathon Project](https://github.com/jbusecke/cmip6_preprocessing)
 
 
