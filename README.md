@@ -11,7 +11,7 @@ Although the amount of data is overwhelming, it is all very precious.  It has be
 
 - We have collected a very small subset - about 600,000 netcdf files at NCAR/Glade, most < 2.1 G, split in `time` dimension.
 
-- We have concatenated the netcdf files in time (using `xarray`, saving as `zarr` stores). We currently have about 30,000 zarr stores in Google Cloud. The time concatenation is problematic, but greatly reduces the work needed to prepare data.
+- We have concatenated the netcdf files in time (using `xarray`, saving as `zarr` stores). We currently have about 30,000 zarr stores in Google Cloud. The time concatenation is problematic, but, once completed,  greatly reduces the work needed downstream to prepare data for research.
 
 
 ## Data Cleaning has many aspects:
