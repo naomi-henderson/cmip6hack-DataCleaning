@@ -2,7 +2,7 @@
 Oct 18, 2019
 
 ## The CMIP6 Data Challenge
-Our Google Cloud CMIP6 zarr repository currently contains contributions from 23 institutions with 48 models. As Gerald Meehl/UCAR explained in the opening session of the Hackathon, as has happened with prior CMIPs, the modelers initially promised to run many experiments, but the time goes by quickly, deadlines are missed and there is now a rush to get the data out, leading to inevitable inconsistencies.
+Our Google Cloud CMIP6 zarr repository currently contains contributions from 23 institutions with 48 models. Gerald Meehl/UCAR explained in the opening session of the Hackathon, as has happened with prior CMIPs, that the modelers initially promised to run many experiments. But time goes by quickly, deadlines are missed and there is now a rush to get the data out, leading to inevitable inconsistencies.
 
 Although the amount of data is overwhelming, it is all very precious.  It has been a labor of love for all involved and we would like to make it as accessible to the world-wide community as possible. For CMIP3 and expecially CMIP5 collections, we each faced the Data Cleaning chore on our own - every researcher going through essentially the same process of discovering and fixing a myriad of little issues in order to calculate multimodel statistics, often with erroneous results. One of the goals of this CMIP hackathon is to develop methods to streamline this often extremely tedious but essential process. The integrity of our science depends on it.
 
