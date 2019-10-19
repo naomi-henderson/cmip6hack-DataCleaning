@@ -22,11 +22,11 @@ Types of issues:
 - **Enhance-able cases** : there are improvements we would like to make before aggregating the data in order to expedite our Pangeo methods
 
 Existing and proposed solutions:
-- The official CMIP6 errata database: [The ES-DOC Errata Search](https://errata.es-doc.org/static/index.html) for withdrawn, incorrect data with unknown fixes. Contributors: Data Providers (modeling centers)
+- The official CMIP6 errata database: [The ES-DOC Errata Search](https://errata.es-doc.org/static/index.html) is used to document withdrawn, replaced or incorrect data. These are formal issues (all affected files are listed) which need to be fixed by the Modeling Centers themselves. **Contributors: Data Providers**
 ![es-doc](assets/es-doc.png)
-- Database of datasets which need special treatment when concatenating the netcdf files in time (@naomi-henderson). Contributors: Data Brokers (those downloading from ESGF, uploading to external data servers)
+- Database of datasets which need special treatment when concatenating the netcdf files in time (@naomi-henderson). **Contributors: Data Brokers** (those downloading from ESGF and collecting in external data servers)
 - Methods for preprocessing the dataset grids (@jbusecke) Contributors: Data Facilitators (like `intake-esg`)
-- A crowd-sourced database of how to fix various datasets (correct units, deal with slightly offset grids, etc). Contributors: Data Consumers (all of us)
+- A crowd-sourced database of how to fix various datasets (correct units, deal with slightly offset grids, etc). **Contributors: Data Consumers** (all of us)
 
 ## This Project
 
