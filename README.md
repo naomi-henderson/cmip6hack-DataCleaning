@@ -39,7 +39,7 @@ Turning the ES-DOC Errata Search into a database in python to quickly identify a
 
 - **Part 2.**
 Constructing a new database for collecting common issues and solutions going forward from here. Includes the initial 
-dataset of exceptions compiled when concatenating the netcdf files in time to create the initial collection of zarr stores for this Hackathon in Google Cloud Storage.  A new Google Form is now under construction which will allow us all to contribute issues, and then see the corresponding Google Sheet of responses. See a preliminary notebook for viewing and using the issues: [Exceptions.ipynb](https://github.com/naomi-henderson/cmip6hack-DataCleaning/blob/master/notebooks/Exceptions.ipynb)
+dataset of exceptions compiled when concatenating the netcdf files in time to create the initial collection of zarr stores for this Hackathon in Google Cloud Storage.  A new Google Form, [Collection Form](https://tinyurl.com/y5cw76at), is now being tested which will allow us all to contribute issues, and then see the corresponding Google Sheet of responses, via the corresponding [CSV of Google Sheet](https://tinyurl.com/y3wmptly). See a preliminary notebook for viewing and using the issues: [Exceptions.ipynb](https://github.com/naomi-henderson/cmip6hack-DataCleaning/blob/master/notebooks/Exceptions.ipynb)
 
 - **Part 3.**
 Incorporating preprocessing into `intake-esm` to process the various model-dependent coordinates in such a way that we can easily use model independent analysis methods. See [Julius Busecke's Hackathon Project](https://github.com/jbusecke/cmip6_preprocessing)
