@@ -1,0 +1,8 @@
+{
+    "uid": "af33329e-e8a3-72e8-8aea-a62872dc53e5",
+    "title": "CFMIP amip-piForcing simulation issues",
+    "description": "The amip-piForcing experiment based on the CNRM-CM6-1 standard configuration of the CNRM model has been mistakenly initialized on January 1st 1979 (like the AMIP experiment from the DECK) and will be rerun as soon as possible starting as requested by CFMIP on January 1st 1870. This simulation has been removed from the ESGF archive.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}
