@@ -1,10 +1,14 @@
 # CMIP6 Hackathon Data Cleaning/Preprocessing Project  
 **LDEO**, October 16-18, 2019
 
+<p align="center"><img src="./assets/data-flow.png" width="500", height="300"></p>
+
 ## The CMIP6 Data Challenge
 Our Google Cloud CMIP6 zarr repository currently contains contributions from 23 institutions with 48 models. Gerald Meehl/UCAR explained in the opening session of the Hackathon, as has happened with prior CMIPs, that the modelers initially promised to run many experiments. But time goes by quickly, deadlines are missed and there is now a rush to get the data out, leading to inevitable inconsistencies.
 
 Although the amount of data is overwhelming, it is all very precious.  It has been a labor of love for all involved and we would like to make it as accessible to the world-wide community as possible. For CMIP3 and expecially CMIP5 collections, we each faced the Data Cleaning chore on our own - every researcher had to repeat the same process of discovering and fixing a myriad of little issues in order to calculate multimodel statistics, sometimes with erroneous results. One of the goals of this CMIP hackathon is to develop methods to streamline this often extremely tedious but essential process. The integrity of our science depends on it.
+
+
 
 ## Current Status of our Google Cloud and NCAR/Glade CMIP6 collections
 - A large chunk of CMIP6 data is collected at a few large sites - the ESGF nodes.  But another chunk of data remains at the home institution and must be downloaded from there. Transfers can be fast, 100Mbps, but can also be as slow as 100Kbps. All of the servers go up and down. Recently, even the LLNL ESGF search API has been inaccessible almost every weekend.
