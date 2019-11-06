@@ -27,7 +27,7 @@ Types of issues:
 
 Existing and proposed solutions:
 - The official CMIP6 errata database: [The ES-DOC Errata Search](https://errata.es-doc.org/static/index.html) is used to document withdrawn, replaced or incorrect data. These are formal issues (all affected files are listed) which need to be fixed by the Modeling Centers themselves. **Contributors: Data Providers**
-<p align="center"><img src="./assets/es-doc.png" width="600"></p>
+<p align="center"><img src="./assets/es-doc.png" width="500"></p>
 
 - Database of datasets which need special treatment when concatenating the netcdf files in time (@naomi-henderson). **Contributors: Data Brokers** (those downloading from ESGF and collecting in external data servers)
 
